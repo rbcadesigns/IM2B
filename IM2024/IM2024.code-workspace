@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "IM2024",
+			"path": "."
+		},
+		{
+			"name": "libraries",
+			"path": "../../../../Documents/Processing/Week5_Workshop/libraries"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "IM2024"
+	}
+}

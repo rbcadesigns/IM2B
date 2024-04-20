@@ -1,0 +1,44 @@
+/* Custom Cursor
+Change the code --> your image/gif */
+body {
+    cursor: url('Workbook/Images/fish-cursor.gif'), auto;
+    background-image: url("My_Workbook/workbook/img/anime-wave.gif");
+    background-repeat: repeat;
+  }
+
+/* Removes the default grey box around buttons */
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  color: rgb(11, 184, 155);
+  font-family: "Lexend", sans-serif;
+}
+
+/* id for back to home button */
+.home-button{
+  display:flex;
+  float:left;
+  margin-left:50px;
+  padding-right: 5%;
+}
+
+h1{
+  text-align: left;
+  font-family: "Lexend", sans-serif;
+  font-weight: 600;
+}
+
+h2{
+  text-align: left;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+}
+
+p{
+  text-align: left;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
