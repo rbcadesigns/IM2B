@@ -336,13 +336,13 @@ button{
   border: rgb(6, 2, 2);
 }
 
-#moving-star{
+#moving-sound{
   margin-top: 3em;
   flex-direction: row;
   align-items: center;
 }
 
-#moving-star img{
+#moving-sound img{
   border-radius: 3em;
 }
 
