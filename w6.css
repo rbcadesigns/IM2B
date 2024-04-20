@@ -276,10 +276,8 @@ button{
 }
 
 .embedded-web{
-  display: inline-block;
   padding: 1rem 1rem;
-  vertical-align: middle;
-
+  border: none;
   /* stuff from class="web-embed" */
   align-items: center;
   overflow: hidden;
