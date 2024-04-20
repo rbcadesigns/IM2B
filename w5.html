@@ -190,45 +190,13 @@
     and how users can play with them.
 </h3>
 <p class="desc"> Browse the experimentations I documented below </p>
-<!--Slideshow of experiments-->
-<div id="gallery">
-    <!--My images-->
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e1.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e2.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e3.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e4.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e5.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e6.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e7.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e8.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e9.png">
-    <img class="experiment" src="My_Workbook/workbook/img/experiments/e10.png">
-
-<!--
-    The following code was taken and modified from:
-    https://www.w3schools.com/js/js_whereto.asp
--->
-<button class="left-btn" onclick="plusDivs(-1)">&#10094;</button>
-<button class="right-btn" onclick="plusDivs(+1)">&#10095;</button>
-
-<script>
-    var slideIndex = 0;
-    carousel();
-
-    function carousel() {
-    var i;
-    var x = document.getElementsByClassName("experiment");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1}
-    x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 3000); // Change image every 3 seconds
-    }
-</script>
-</div>
-
+    <!--Insert p5.js Web embeds-->
+        <p>Watch the rotating gallery for flashing images! Press down to slow them down...</p>
+        <iframe class="embedded-web" src="https://editor.p5js.org/shhw/sketches/6IG8y81E2" 
+        scrolling="no" height="250" width="450">
+        </iframe>
+<br>
+      
 <h2 class="activity">
     WORKSHOP ACTIVITY 2: IMAGE & SOUND
 </h2>
@@ -244,12 +212,6 @@
 </ul>
 <img class="image-sound" src="My_Workbook/workbook/img/experiments/i1.png">
 <img class="image-sound" src="My_Workbook/workbook/img/experiments/i2.png">
-
-    <!--Insert p5.js Web embeds-->
-        <p>Watch the rotating gallery for flashing images!</p>
-        <iframe class="embedded-web" src="https://editor.p5js.org/shhw/sketches/6IG8y81E2" 
-        scrolling="no" height="250" width="450">
-        </iframe>
         
     <!--Insert another p5.js Web embeds-->
         <p>Press down anywhere below for bubbles!</p>
