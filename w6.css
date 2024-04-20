@@ -1,6 +1,9 @@
 body{
   cursor: url(My_Workbook/workbook/img/sparkle-cursor.gif), auto;
   /* Image source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F485192559866094602%2F&psig=AOvVaw199WOuo9o2XvjuNxvTindv&ust=1712727833842000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCX0sS2tIUDFQAAAAAdAAAAABAh */
+  background-image: url("My_Workbook/workbook/img/camp-ocean.gif");
+  /*GIF source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Faim4beauty%2Fart%2FOCEAN-DOLPHIN-347948557&psig=AOvVaw1lJHAfS1dH2zljQUtojKFs&ust=1713696646828000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODKrNPP0IUDFQAAAAAdAAAAABAt */
+  background-repeat: none;
 }
 
 /* 
