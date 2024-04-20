@@ -302,6 +302,7 @@ button{
     /* stuff from class="web-embed" */
     align-items: center;
     overflow: hidden;
+    margin-left: 15em;
 }
 
 .embedded-web iframe{
